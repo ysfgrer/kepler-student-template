@@ -1,0 +1,11 @@
+{
+  "displayName": "Öğrenci",
+  "theme": "lavender",
+  "semester": {
+    "name": "Dönem seçilmedi",
+    "start": "2030-01-01",
+    "end": "2030-06-30"
+  },
+  "courses": [],
+  "plannedSessions": []
+}

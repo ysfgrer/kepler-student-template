@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "owner": "Öğrenci",
+  "term": "Dönem seçilmedi",
+  "timezone": "Europe/Istanbul",
+  "lastVerifiedAt": null,
+  "staleAfterHours": 24,
+  "refreshStatus": "never",
+  "coverageNote": "Henüz Ninova kontrolü yapılmadı.",
+  "courses": [],
+  "tasks": [],
+  "announcements": [],
+  "futureMilestones": [],
+  "history": [],
+  "scheduleNotes": []
+}

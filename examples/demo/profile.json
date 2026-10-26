@@ -1,0 +1,23 @@
+{
+  "displayName": "Demo Öğrenci",
+  "theme": "lavender",
+  "semester": {
+    "name": "Dönem seçilmedi",
+    "start": "2030-01-01",
+    "end": "2030-06-30"
+  },
+  "courses": [
+    {
+      "id": "DEMO101",
+      "name": "Örnek Ders",
+      "userAbsenceLimit": null
+    }
+  ],
+  "plannedSessions": [
+    {
+      "courseId": "DEMO101",
+      "date": "2030-01-07",
+      "time": "09:00"
+    }
+  ]
+}

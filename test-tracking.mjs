@@ -1,0 +1,2 @@
+import assert from 'node:assert/strict';import {trackingCourses,evaluateTracking,personalRisk} from './dist/tracking-core.js';
+assert.deepEqual(trackingCourses([],[]),[]);assert.equal(trackingCourses([{id:'DEMO101'}],[]).length,1);const result=evaluateTracking({courseId:'DEMO101'});assert.notEqual(result.status,'ready');assert(result.reasons.includes('assignment_coverage'));assert.equal(personalRisk(null).tone,'unknown');console.log('tracking passed');

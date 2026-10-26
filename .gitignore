@@ -1,0 +1,17 @@
+private/
+.local/
+build/
+node_modules/
+.env*
+*.log
+*.csv
+*.pdf
+*.png
+*.jpg
+*.zip
+*.tar*
+.DS_Store
+.openai/
+attendance-backup/
+playwright-report/
+test-results/

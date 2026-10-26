@@ -1,0 +1,17 @@
+{
+  "name": "kepler-student-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "node setup.mjs",
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "test": "node test.mjs",
+    "privacy": "node privacy-scan.mjs",
+    "doctor": "node doctor.mjs"
+  }
+}

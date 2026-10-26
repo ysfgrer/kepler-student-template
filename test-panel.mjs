@@ -1,0 +1,2 @@
+import assert from 'node:assert/strict';import {taskReminder,absenceOverview} from './dist/panel-core.js';
+assert.equal(taskReminder({date:'2030-01-07',dueAt:null},new Date('2030-01-07T12:00:00Z')).tone,'urgent');assert.match(taskReminder({date:'2030-01-07',dueAt:null},new Date('2030-01-07T12:00:00Z')).detail,/saat belirtilmedi/);assert.deepEqual(absenceOverview([],[],[],'2030-01-07'),[]);console.log('panel passed');

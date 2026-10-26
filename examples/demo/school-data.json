@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "owner": "Demo Öğrenci",
+  "term": "Sentetik dönem",
+  "timezone": "Europe/Istanbul",
+  "lastVerifiedAt": null,
+  "staleAfterHours": 24,
+  "refreshStatus": "demo",
+  "coverageNote": "Tamamen sentetik örnekler. Gerçek eğitim içeriği değildir.",
+  "courses": [
+    {
+      "id": "DEMO101",
+      "classId": null,
+      "name": "Örnek Ders",
+      "nameTr": "Örnek Ders",
+      "sourceUrl": null,
+      "verifiedAt": null,
+      "coverage": "unknown",
+      "files": [],
+      "schedule": [
+        [
+          1,
+          "09:00–10:00",
+          "Örnek oda"
+        ]
+      ],
+      "scheduleCheckedAt": null,
+      "rules": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "demo-task-1",
+      "courseId": "DEMO101",
+      "kind": "assignment",
+      "title": "Sentetik örnek çalışma",
+      "summary": "Bu yalnız arayüzü denemek için üretilmiş bir kayıttır.",
+      "date": "2030-01-08",
+      "dueAt": null,
+      "verification": "unverified",
+      "verifiedAt": null,
+      "sourceUrl": null,
+      "requirements": [],
+      "resources": [],
+      "submission": {
+        "ownUploaded": 0,
+        "expectedFiles": 1,
+        "scope": "group",
+        "groupStatus": "unknown"
+      }
+    }
+  ],
+  "announcements": [
+    {
+      "id": "demo-notice-1",
+      "courseId": "DEMO101",
+      "title": "Sentetik duyuru",
+      "body": "Bu örnek bir duyurudur.",
+      "publishedAt": null,
+      "verifiedAt": null,
+      "verification": "unverified",
+      "sourceUrl": null,
+      "status": "current"
+    }
+  ],
+  "futureMilestones": [],
+  "history": [],
+  "scheduleNotes": []
+}
